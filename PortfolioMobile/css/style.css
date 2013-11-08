@@ -1,0 +1,22 @@
+/* 
+    Document   : style
+    Created on : 27-Oct-2013, 3:43:51 PM
+    Author     : Mark Annandale
+    Description:
+        This is the stylesheet for my portfolio mobile site.
+*/
+
+header {
+    text-align: center;
+}
+
+#slides {
+    width: 240px;
+    height: 169px;
+    float: left;
+}
+
+body{
+    font-family: "Share Tech", sans-serif;
+}
+

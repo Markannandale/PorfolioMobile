@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<!-- File name: index.html
+     Author: Mark Annandale
+     Website name: Mark Annandale's Portfolio Website - Mobile
+     Description: This is the mobile version of my portfolio site, containing all the data of the previous version, but condensed down to a more mobile version.
+-->
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <title></title>
+  
+  
+  <!-- Themes -->
+  <link rel="stylesheet" href="css/themes/Jack.min.css" />
+  <link rel="stylesheet" href="http://code.jquery.com/mobile/1.3.2/jquery.mobile.structure-1.3.2.min.css" />
+  <link rel="stylesheet" href="http://code.jquery.com/mobile/1.3.2/jquery.mobile-1.3.2.min.css" />
+  
+  <!-- Extra Codiqa features -->
+  <link rel="stylesheet" href="codiqa.ext.css">
+  
+  <!-- Style Sheet -->
+  <link rel="stylesheet" href="css/style.css">
+  
+  <!-- Fonts -->
+  <link href='http://fonts.googleapis.com/css?family=Share+Tech' rel='stylesheet' type='text/css'>
+  
+  <!-- jQuery and jQuery Mobile -->
+  <script src="https://d10ajoocuyu32n.cloudfront.net/jquery-1.9.1.min.js"></script>
+  <script src="https://d10ajoocuyu32n.cloudfront.net/mobile/1.3.1/jquery.mobile-1.3.1.min.js"></script>
+
+  <!-- Extra Codiqa features -->
+  <script src="https://d10ajoocuyu32n.cloudfront.net/codiqa.ext.js"></script>
+   
+</head>
+<body>
+<!--HOME-->
+<div data-role="page" data-control-title="Index" id="homepage">
+    <style>
+    /* Prevents slides from flashing */
+    #slides {
+      display:none;
+    }
+  </style>
+
+  <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+  <script src="jquery.slides.min.js"></script>
+<!--javascript for slider-->
+  <script>
+    $(function(){
+      $("#slides").slidesjs({
+        width: 940,
+        height: 528
+      });
+    });
+  </script>
+  <!--- header -->
+    <div data-theme="f" data-role="header">
+        <img src="images/Logo.PNG" width="160" height="110">
+        <!-- navbar -->
+        <div data-role="navbar" data-iconpos="top">
+            <ul>
+                <li>
+                    <a href="#homepage" data-transition="fade" data-theme="" data-icon="home">
+                        Home
+                    </a>
+                </li>
+                <li>
+                    <a href="#aboutme" data-transition="fade" data-theme="" data-icon="info">
+                        About Me
+                    </a>
+                </li>
+                <li>
+                    <a href="#contactme" data-transition="fade" data-theme="" data-icon="grid">
+                        Contact Me
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <!-- end navbar -->
+    </div>
+    <!-- end header -->
+    <!-- page content -->
+    <div data-theme="f" data-role="content">
+        <div style="width: 124px; height: 100px; position: relative; background-color: #fbfbfb; border: 1px solid #b8b8b8;"
+        data-controltype="image">
+            <a href="#projects" data-transition="fade" data-theme=""><img src="images/projects.png" alt="image" style="width: 124px; height: 100px;"></a>
+        </div>
+        <div style="width: 124px; height: 100px; position: relative; background-color: #fbfbfb; border: 1px solid #b8b8b8;"
+        data-controltype="image">
+            <a href="#services" data-transition="fade" data-theme=""><img src="images/microsoft.png" alt="image" style="width: 124px; height: 100px;"></a>
+        </div>
+        <hr style="height:3px; background-color:#ccc; border:0; margin-top:12px; margin-bottom:12px;">
+        <div id="slides">
+            <a href="https://github.com/Markannandale/BattleClash/" data-controltype="image"><img src="images/Capture.PNG" width="240" height="147"></a>
+            <a href="http://webdesign4.georgianc.on.ca/~200217996/Assignment1/report.php"><img src="images/Capture2.PNG" width="240" height="147"></a>
+            <a href="http://webdesign4.georgianc.on.ca/~200217996/Assignment2/viewcharacter.php"><img src="images/Capture3.PNG" width="240" height="147"></a>
+        </div>
+    </div>
+    <!-- end page content -->
+    <!-- footer -->
+    <div data-theme="f" data-role="footer" data-position="fixed">
+        <!-- link -->
+        <div class="fullsite">
+            <a href="http://webdesign4.georgianc.on.ca/~200217996/Portfolio/index.php?view=full" data-transition="fade">
+                Full Site
+            </a>
+        </div>
+        <!-- end link -->
+        <h3>
+            Copyright &copy;2013 Creative Index Studios, Inc.
+        </h3>
+    </div>
+    <!-- end footer -->
+</div>
+<!-- end home -->
+
+<!-- About -->
+<div data-role="page" data-control-title="aboutMe" id="aboutme">
+    <!-- header -->
+    <div data-theme="f" data-role="header">
+        <img src="images/Logo.PNG" width="160" height="110">
+        <!-- navbar -->
+        <div data-role="navbar" data-iconpos="top">
+            <ul>
+                <li>
+                    <a href="#homepage" data-transition="fade" data-theme="" data-icon="home">
+                        Home
+                    </a>
+                </li>
+                <li>
+                    <a href="#aboutme" data-transition="fade" data-theme="" data-icon="info">
+                        About Me
+                    </a>
+                </li>
+                <li>
+                    <a href="#contactme" data-transition="fade" data-theme="" data-icon="grid">
+                        Contact Me
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <!-- end navbar -->
+    </div>
+    <!-- end header -->
+    <!-- content -->
+    <div data-theme="f" data-role="content">
+        <div style="width: 148px; height: 140px; position: relative; background-color: #fbfbfb; border: 1px solid #b8b8b8;"
+        data-controltype="image">
+            <img src="images/profile.jpg" alt="profile image" style="width: 124px; height: 100px;">
+        </div>
+        <h2>
+            My skills lie in web development and application programming.
+        </h2>
+        <div data-controltype="textblock">
+            <b>
+                I'm training myself to use these skills in order to eventually become a game designer or web programmer. To me, the web environment just seems like such an exciting place to work. I'm a very creative person, and I wish to try and spread my creativity to others in the best way possible. Also, I just love the felling of looking at something and being able to say "I did that".
+            </b>
+        </div>
+        <hr style="height:3px; background-color:#ccc; border:0; margin-top:12px; margin-bottom:12px;">
+        <div data-controltype="textblock">
+            <h3>
+                Objective
+            </h3>
+            <b>
+                A passionate, hardworking, detail-focused Computer Programming Analyst student dedicated to learning about the computer programmer trade and eager to build upon academic knowledge and skills. Seeking a challenging position as computer programmer to utilize my knowledge in a well reputed organization.
+            </b>
+            <h3>
+                Skills and Abilities
+            </h3>
+            <ul>
+                <li>Programming languages: Visual basic, Visual C# and Java Bluej.</li>
+                <li>Hardware skills: Apple + II, HP 9000, 3090,Compaq and  IBM 386.</li>
+                <li>Software skills: Visual Basic, Dreamweaver, Netbeans.</li>
+                <li>Database programming: SQL.</li>
+                <li>Computer platforms: Macintosh(average) and Windows(strong).</li>
+                <li>Online development: CSS, HTML, javascript and PHP.</li>
+            </ul>
+            <h3>
+                Experience
+            </h3>
+            <h4>
+                Electrical Helper, AA Electrical Barrie, ON
+            </h4>
+            <b>
+                2009 - 2012
+            </b>
+            <ul>
+                <li>Working with a Master Electrician my duties included running cables and wire, terminating wires assembling of fixtures and maintaining a clean and safe jobsite.</li>
+            </ul>
+            <h4>
+                Georgian College Barrie, ON
+            </h4>
+            <b>
+                June 2013 - September 2013
+            </b>
+            <ul>
+                <li>Duties included computer and network printer maintenance and troubleshooting, as well as student support and network login assistance. </li>
+            </ul>
+            <h3>
+                Education
+            </h3>
+            <h4>
+                Georgian College Barrie, ON
+            </h4>
+            <ul>
+                <li>Computer Programmer Analyst (Co-op) Higher Diploma Program.</li>
+                <li>Made Deans list 2 semesters in a row.</li>
+                <li>Work Smart Certificate, Ministry of Labour-Work Safety (Sept 2012).</li>
+            </ul>
+            <h4>
+                Innisdale Secondary School Barrie, ON
+            </h4>
+            <ul>
+                <li>GRADE 12 Math Award.</li>
+            </ul>
+            <h3>
+                Interests & Hobbies
+            </h3>
+            <ul>
+                <li>First Degree Black Belt in Karate. </li>
+                <li>Reading</li>
+            </ul>
+        </div>
+    </div>
+    <!-- end content -->
+    <!-- footer -->
+    <div data-theme="f" data-role="footer" data-position="fixed">
+        <h3>
+            Copyright &copy;2013 Creative Index Studios, Inc.
+        </h3>
+        <!-- link -->
+        <div class="fullsite">
+            <a href="http://webdesign4.georgianc.on.ca/~200217996/Portfolio/index.php?view=full" data-transition="fade">
+                Full Site
+            </a>
+        </div>
+        <!-- end link -->
+    </div>
+    <!-- end footer -->
+</div>
+<!-- end about -->
+
+<!-- projects -->
+<div data-role="page" data-control-title="projects" id="projects">
+    <!-- header -->
+    <div data-theme="f" data-role="header">
+        <img src="images/Logo.PNG" width="160" height="110">
+        <!-- navbar -->
+        <div data-role="navbar" data-iconpos="top">
+            <ul>
+                <li>
+                    <a href="#homepage" data-transition="fade" data-theme="" data-icon="home">
+                        Home
+                    </a>
+                </li>
+                <li>
+                    <a href="#aboutme" data-transition="fade" data-theme="" data-icon="info">
+                        About Me
+                    </a>
+                </li>
+                <li>
+                    <a href="#contactme" data-transition="fade" data-theme="" data-icon="grid">
+                        Contact Me
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <!-- end navbar -->
+    </div>
+    <!-- end header -->
+    <!-- content -->
+    <div data-theme="f" data-role="content">
+        <h3>
+            Zombie outbreak report form
+        </h3>
+        <a href="http://webdesign4.georgianc.on.ca/~200217996/Assignment1/report.php" data-controltype="image">
+            <div style="width: 148px; height: 140px; position: relative; background-color: #fbfbfb; border: 1px solid #b8b8b8;" data-controltype="image">
+                <img src="images/Capture2.PNG" alt="image" style="width: 124px; height: 100px;">
+            </div>
+        </a>
+        <div data-controltype="textblock">
+            <b>
+                This is one of my earlier web programming projects. Once the user fills out the form and clicks submit, the completed form will be sent to my student email address.
+            </b>
+        </div>
+        <hr style="height:3px; background-color:#ccc; border:0; margin-top:12px; margin-bottom:12px;">
+        <h3>
+            Anime creator form
+        </h3>
+        <a href="http://webdesign4.georgianc.on.ca/~200217996/Assignment2/viewcharacter.php" data-controltype="image">
+            <div style="width: 138px; height: 130px; position: relative; background-color: #fbfbfb; border: 1px solid #b8b8b8;" data-controltype="image">
+                <img src="images/Capture3.PNG" alt="image" style="width: 124px; height: 100px;">
+            </div>
+        </a>
+        <div data-controltype="textblock">
+            <b>
+                This site is my first use of CRUD operations. A user can fill out the character creation form on this site, and view it alongside other profiles that are stored in a database on the homepage.
+            </b>
+        </div>
+        <hr style="height:3px; background-color:#ccc; border:0; margin-top:12px; margin-bottom:12px;">
+        <h3>
+            Retro project microsite
+        </h3>
+        <a href="https://github.com/Markannandale/RetroProjectMicrosite/" data-controltype="image">
+            <div style="width: 138px; height: 130px; position: relative; background-color: #fbfbfb; border: 1px solid #b8b8b8;">
+                <img src="images/Capture4.PNG" alt="image" style="width: 138px; height: 130px;">
+            </div>
+        </a>
+        <div data-controltype="textblock">
+            <b>
+                My final project for my Intro to Web Authoring class. This site has all the basic elements of a working website, including a working nav bar, proper css styling, and appropriately sectioned content.
+            </b>
+        </div>
+        <hr style="height:3px; background-color:#ccc; border:0; margin-top:12px; margin-bottom:12px;">
+        <h3>
+            Battle clash
+        </h3>
+        <a href="https://github.com/Markannandale/BattleClash/" data-controltype="image">
+            <div style="width: 138px; height: 130px; position: relative; background-color: #fbfbfb; border: 1px solid #b8b8b8;" data-controltype="image">
+                <img src="images/Capture.PNG" alt="image" style="width: 124px; height: 100px;">
+            </div>
+        </a>
+        <div data-controltype="textblock">
+            <b>
+                One of my best works to date. This site includes the ability to allow users to login, signup, and logout, and it also has full CRUD functionality.
+            </b>
+        </div>
+    </div>
+    <!-- end content -->
+    <!-- footer -->
+    <div data-theme="f" data-role="footer" data-position="fixed">
+        <h3>
+            Copyright &copy;2013 Creative Index Studios, Inc.
+        </h3>
+        <!-- link -->
+        <div class="fullsite">
+            <a href="http://webdesign4.georgianc.on.ca/~200217996/Portfolio/index.php?view=full" data-transition="fade">
+                Full Site
+            </a>
+        </div>
+        <!-- end link -->
+    </div>
+    <!-- end footer -->
+</div>
+<!-- end projects -->
+
+<!-- services -->
+<div data-role="page" data-control-title="services" id="services">
+    <!-- header -->
+    <div data-theme="f" data-role="header">
+        <h3>
+            <img src="images/Logo.PNG" width="160" height="110">
+        </h3>
+        <!-- navbar -->
+        <div data-role="navbar" data-iconpos="top">
+            <ul>
+                <li>
+                    <a href="#homepage" data-transition="fade" data-theme="" data-icon="home">
+                        Home
+                    </a>
+                </li>
+                <li>
+                    <a href="#aboutme" data-transition="fade" data-theme="" data-icon="info">
+                        About Me
+                    </a>
+                </li>
+                <li>
+                    <a href="#contactme" data-transition="fade" data-theme="" data-icon="grid">
+                        Contact Me
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <!-- end navbar -->
+    </div>
+    <!-- end header -->
+    <!-- content -->
+    <div data-theme="f" data-role="content">
+        <h3>
+            Services
+        </h3>
+        <div style="width: 148px; height: 140px; position: relative; background-color: #fbfbfb; border: 1px solid #b8b8b8;"
+        data-controltype="image">
+            <img src="images/microsoft.png" alt="image" style="width: 124px; height: 100px;">
+        </div>
+        <div data-controltype="textblock">
+            <b>
+                I possess strong web design skills, as well as html/css/php programming skills, so I can program functional webpages. I am also well versed in application programming, mainly the java programming environment. Additionally, I possess strong skills in database querying, and can troubleshoot most microsoft office applications.
+            </b>
+        </div>
+    </div>
+    <!-- end content -->
+    <!-- footer -->
+    <div data-theme="f" data-role="footer" data-position="fixed">
+        <h3>
+            Copyright &copy;2013 Creative Index Studios, Inc.
+        </h3>
+        <!-- link -->
+        <div class="fullsite">
+            <a href="http://webdesign4.georgianc.on.ca/~200217996/Portfolio/index.php?view=full" data-transition="fade">
+                Full Site
+            </a>
+        </div>
+        <!-- end link -->
+    </div>
+    <!-- end footer -->
+</div>
+<!-- end services -->
+
+<!-- contact -->
+<div data-role="page" data-control-title="contactme" id="contactme">
+    <!-- header -->
+    <div data-theme="f" data-role="header">
+        <h3>
+            <img src="images/Logo.PNG" width="160" height="110">
+        </h3>
+        <!-- navbar -->
+        <div data-role="navbar" data-iconpos="top">
+            <ul>
+                <li>
+                    <a href="#homepage" data-transition="fade" data-theme="" data-icon="home">
+                        Home
+                    </a>
+                </li>
+                <li>
+                    <a href="#aboutme" data-transition="fade" data-theme="" data-icon="info">
+                        About Me
+                    </a>
+                </li>
+                <li>
+                    <a href="#contactme" data-transition="fade" data-theme="" data-icon="grid">
+                        Contact Me
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <!-- end navbar -->
+    </div>
+    <!-- end header -->
+    <!-- content -->
+    <div data-theme="f" data-role="content">
+        <h4>
+            Keep Connected
+        </h4>
+        <div data-controltype="textblock">
+            <b>
+                <a href="https://www.facebook.com/mark.annandale.92">FaceBook</a> - 
+                <a href="http://www.linkedin.com">LinkedIn</a>
+            </b>
+        </div>
+        <hr style="height:3px; background-color:#ccc; border:0; margin-top:12px; margin-bottom:12px;">
+        <h4>
+            Contact Me
+        </h4>
+        <div data-controltype="textblock">
+            <b>
+                Phone: (705) 252-7976 - email: markannandale@rogers.com
+            </b>
+        </div>
+    </div>
+    <!-- end content -->
+    <!-- footer -->
+    <div data-theme="f" data-role="footer" data-position="fixed">
+        <h3>
+            Copyright &copy;2013 Creative Index Studios, Inc.
+        </h3>
+        <!-- link -->
+        <div class="fullsite">
+            <a href="http://webdesign4.georgianc.on.ca/~200217996/Portfolio/index.php?view=full" data-transition="fade">
+                Full Site
+            </a>
+        </div>
+        <!-- end link -->
+    </div>
+    <!-- end footer -->
+</div>
+<!-- end contact -->
+</body>
+</html>
